@@ -3,24 +3,28 @@ using namespace std;
 
 int main()
 {
+  /*int a;
+  cin>>a;
+  //check if number is positive or negative
 
-  //first example
-  for(int i=1; i<=10; i++)
+  if(a>0)
   {
-    cout << "Let's do it."<<endl;
+    cout<<"A is positive."<<endl;
   }
+  else if(a==0)
+  {
+    cout<<"A is zero."<< endl;
+  }
+  else{
+     cout<<"A is negative."<<endl;
+  }
+  
+  //taking two input
+  int r,s;
 
- //second example
-  int arr[] {10,20,30,40,50,60,70,80,90};
-  for (auto  element: arr)
-  {
-    cout << element << " ";
-  }
+  cin>>r >> s; 
+  */
+  
 
-  //third example
-  for(int i=0, j=10, k=20; (i+j+k) <100; j++, k--, i=+k)
-  {
-    cout<< i<< " "<< j <<" "<< k << "\n ";
-  }
   return 0;
 }

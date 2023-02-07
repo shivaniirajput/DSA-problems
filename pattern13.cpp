@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main ()
+int main()
 {
   int n;
   cin>>n;
@@ -10,9 +10,11 @@ int main ()
   while(i<=n)
   {
     int j=1;
+    
     while(j<=n)
     {
-      cout<<j;
+      char ch='A'+j-1;
+      cout<<ch <<" ";
       j=j+1;
     }
     cout<<endl;
